@@ -19,17 +19,17 @@ htmlTarget.innerHTML = answer1
 
 
 //------------------------ Question 2 ---------------------------
-// Write a function that recieves a string as a parameter and evaluate each character of the string to determinate if the character is vocal or consonant. you have to store each character on separates arrays, one for vowels and the other one for consonants.
+// Write a function that recieves a string as a parameter and evaluate each character of the string to determinate if the character is vowel or a consonant. you have to store each character on separates arrays, one for vowels and the other one for consonants.
 // after separating the characters concatenate both arrays. ask the user if wants the vowels first or consonants first in the final array.
 //hint:
 
 //@param {string}
 //@return {character} => array of characters
-vocalOrConsonant = () => {
+vowelOrConsonant = () => {
   return
 }
 
-const answer2 = vocalOrConsonant()
+const answer2 = vowelOrConsonant()
 
 const htmlTarget2 = document.getElementById('a-2')
 htmlTarget2.innerHTML = answer2
@@ -57,8 +57,8 @@ htmlTarget3.innerHTML = answer3
 
 
 //------------------------ Question 4 ---------------------------
-// In the function below we are giving you an array of objects, each one with the same properties. Ask to the user for 3 diferentes options to sorting the array from the highest to lowest. In case is a string, the criteria to sort it must be the length of the string. The first one is sorting the array of objects based on the title property.
-// The second one sorting the array of objects based on the author property, the third one based on the library property. finally, the return value has to be the string sorted of the property selected separeted with a semicolon. Remember you have to sort all the array, based on the selected property
+// In the function below we are giving you an array of objects, each one with the same properties. Ask to the user for 3 diferentes options to sorting the array from the highest to lowest. In the case of a string, the criteria to sort must be the length of the string. The first one is sorting the array of objects based on the title property.
+// The second one sorting the array of objects based on the author property, the third one based on the library property. finally, the return value has to be the string sorted of the property selected separeted with a semicolon. Remember you have to sort all of the array based on the selected property
 //example: if the user select sorting by title the return value must be: "Mockingjay: The Final Book of The Hunger Games; Walter Isaacson; The Road Ahead"
 
 sort = () => {
