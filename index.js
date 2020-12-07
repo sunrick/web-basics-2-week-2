@@ -1,4 +1,4 @@
-
+// blah
 //------------------------ Question 1---------------------------
 //Write a function that ask the user for two numbers and return the product of them. But the challenge here is that you can't use the operator * (you can't make the product)
 //hint: multiplication is a sequence of sums
